@@ -8,11 +8,11 @@
 #ifndef SRC_GIPMODBUS_H_
 #define SRC_GIPMODBUS_H_
 
-#include "gBasePlugin.h"
+#include "gBaseComponent.h"
 #include "modbus.h"
 
 
-class gipModbus : public gBasePlugin {
+class gipModbus : public gBaseComponent {
 public:
 	gipModbus(std::string ip, int port);
 	virtual ~gipModbus();
